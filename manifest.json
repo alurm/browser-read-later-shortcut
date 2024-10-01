@@ -5,7 +5,7 @@
 	"background": { "service_worker": "worker.js", "type": "module" },
 	"commands": {
 		"Read later": {
-			"suggested_key": { "default": "Alt+Shift+D" },
+			"suggested_key": "Alt+Shift+D",
 			"description": "Read later"
 		}
 	},
