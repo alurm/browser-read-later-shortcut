@@ -1,0 +1,9 @@
+* Read later shortcut
+
+This extension adds a browser shortcut to add the current tab to the reading list.
+
+By default it is Alt+Shift+D. You can change that in your browser.
+
+* The license
+
+MIT.
