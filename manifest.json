@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "Alt+Shift+D to read later",
+	"version": "0.1",
+	"background": { "service_worker": "worker.js", "type": "module" },
+	"commands": {
+		"Read later": {
+			"suggested_key": { "default": "Alt+Shift+D" },
+			"description": "Read later"
+		}
+	},
+	"permissions": [
+		"readingList",
+		// Needed for title and url properties to be present in tab objects returned from chrome.tabs.query.
+		"tabs"
+	]
+}
